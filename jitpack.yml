@@ -1,0 +1,11 @@
+install:
+   - echo "installing ..."
+   - pwd
+   - id -a
+   - ls -al
+   - mkdir -p ~/.m2/repository/com/github/maskarade/android/orma/orma-migration/6.0.2
+   - cp maven-metadata.xml ~/.m2/repository/com/github/maskarade/android/orma/orma-migration/
+   - cp orma-migration-6.0.2.jar ~/.m2/repository/com/github/maskarade/android/orma/orma-migration/6.0.2/
+   - cp orma-migration-6.0.2.aar ~/.m2/repository/com/github/maskarade/android/orma/orma-migration/6.0.2/
+   - cp orma-migration-6.0.2.pom ~/.m2/repository/com/github/maskarade/android/orma/orma-migration/6.0.2/
+
